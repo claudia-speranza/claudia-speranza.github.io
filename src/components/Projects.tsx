@@ -34,9 +34,9 @@ const Projects: React.FC<ProjectsProps> = ({ projects }) => {
                       <i className="fab fa-github"></i> GitHub
                     </a>
                   )}
-                  {project.liveUrl && (
-                    <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="btn btn-live">
-                      <i className="fas fa-external-link-alt"></i> Live Demo
+                  {project.websiteUrl && (
+                    <a href={project.websiteUrl} target="_blank" rel="noopener noreferrer" className="btn btn-live">
+                      <i className="fas fa-external-link-alt"></i> Website
                     </a>
                   )}
                 </div>

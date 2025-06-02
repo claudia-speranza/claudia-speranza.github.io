@@ -68,54 +68,56 @@ export const education: Education[] = [
     description: 'Specialized in Software Engineering and Data Science'
   },
   {
+    degree: 'Erasmus Exchange Programme',
+    institution: 'Katholieke Universiteit of Leuven',
+    location: 'Leuven, Belgium',
+    graduationDate: '2020',
+  },
+  {
     degree: 'Bachelor of Science in Mathematical Engineering',
     institution: 'Politecnico di Milano',
     location: 'Milan, Italy',
-    graduationDate: '2022',
+    graduationDate: '2019',
   }
 ];
 
 export const skills: Skill[] = [
   {
     category: 'Programming Languages',
-    items: ['TypeScript', 'JavaScript', 'Python', 'Java', 'C++']
+    items: ['Python', 'Java', 'C++', 'C#', 'HTML/CSS/JS', 'NodeJS/React']
   },
   {
-    category: 'Frontend Development',
-    items: ['React', 'Vue.js', 'Angular', 'HTML5', 'CSS3/SCSS', 'Redux']
-  },
-  {
-    category: 'Backend Development',
-    items: ['Node.js', 'Express', 'Django', 'Flask', 'GraphQL', 'REST API']
+    category: 'ML & Robotics Tools',
+    items: ['Tensorflow,', 'PyTorch', 'TensorRT', 'Onnx', 'CUDA', 'OpenCV', 'ROS2']
   },
   {
     category: 'Database',
-    items: ['MongoDB', 'PostgreSQL', 'MySQL', 'Redis']
+    items: ['MongoDB', 'PostgreSQL', 'Redis', 'Timescale']
   },
   {
     category: 'DevOps & Tools',
-    items: ['Git', 'Docker', 'Kubernetes', 'CI/CD', 'AWS', 'Azure']
+    items: ['Git', 'Unix', 'Docker', 'Kubernetes', 'CI/CD', 'GCP/VertexAI', 'Atlassian suite']
   }
 ];
 
 export const projects: Project[] = [
   {
     id: 'proj1',
-    title: 'E-commerce Platform',
-    description: 'A full-featured online shopping platform with user authentication, product catalog, and payment processing.',
-    technologies: ['TypeScript', 'React', 'Node.js', 'MongoDB', 'Stripe API'],
-    githubUrl: 'https://github.com/yourusername/ecommerce-platform',
-    liveUrl: 'https://ecommerce-platform.example.com',
-    imageUrl: '/images/projects/'
+    title: 'Gear Fault Detection from Vibrational Data',
+    description: 'Developed an LSTM-based system to detect anomalies in vibrational timeseries data from gear systems. Project conducted in collaboration with an Italian car manufacturer.',
+    technologies: ['PyTorch', 'LSTM', 'LabView'],
+    githubUrl: 'https://github.com/claudia-speranza/GearFaultDetection',
+    websiteUrl: '',
+    imageUrl: '/images/proj1.png'
   },
   {
     id: 'proj2',
-    title: 'Task Management App',
-    description: 'A productivity application for managing personal and team tasks with real-time updates.',
-    technologies: ['TypeScript', 'React', 'Firebase', 'Material-UI'],
-    githubUrl: 'https://github.com/yourusername/task-management',
-    liveUrl: 'https://task-app.example.com',
-    imageUrl: '/images/projects/task-app.jpg'
+    title: 'Augmented Reality in Mobility',
+    description: 'Project in collaboration with Politecnico di Milano and Move research team to develop augmented reality systems for driving applications.',
+    technologies: ['Unity', 'C#'],
+    githubUrl: '',
+    websiteUrl: 'https://www.hmdrive.it/',
+    imageUrl: '/images/proj2.png'
   },
   // Add more projects as needed
 ];
