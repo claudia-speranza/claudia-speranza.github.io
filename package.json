@@ -8,16 +8,8 @@
     "build": "webpack --mode production",
     "lint": "eslint 'src/**/*.{ts,tsx}'",
     "format": "prettier --write 'src/**/*.{ts,tsx}'",
-    "test": "jest",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "test": "jest"
   },
-  "keywords": [
-    "typescript",
-    "react",
-    "personal-website",
-    "portfolio"
-  ],
   "author": "Claudia Speranza",
   "license": "",
   "dependencies": {
