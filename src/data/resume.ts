@@ -5,7 +5,7 @@ export const personalInfo: PersonalInfo = {
   title: 'AI Engineer',
   email: '',
   phone: '',
-  location: 'Mialn, Italy',
+  location: 'Milan, Italy',
   imageUrl: '/images/picture.jpg',
   githubUrl: 'https://github.com/yourusername',
   linkedinUrl: 'https://linkedin.com/in/yourusername',
